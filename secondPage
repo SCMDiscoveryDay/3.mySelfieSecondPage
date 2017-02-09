@@ -1,0 +1,73 @@
+<!--the SPA second screen-->
+    <section data-role="page" id="selfiePic">
+
+        <main>
+            <header data-role="header" id="index-banner">
+                <div class="center mainLogo"></div>
+
+            </header>
+
+        </main>
+        <div class="container">
+
+            <div class="root card card-panelTopHeader teal lighten-4 orange-text text-darken-1" data-role="content">
+
+
+                <section class="center" style="margin-top:40px;">
+
+                    <div class="left-align"><a class="navBack waves-effect waves-light" href="#me" style="visibility: visible; z-index:999;"><i style="font-size:40px" class="material-icons"></i><span>Back</span></a></div>
+
+
+
+                    <form id="addRecipeStep" class="addRecipeStep" enctype="multipart/form-data">
+
+                        <div class="col s12 file-field center">
+                            <div class="btn">
+                                <span>Take Picture</span>
+                                <input id="PhotoPicker" onchange="previewFile()" type="file" name="MAD17Steps[path]" class="path" accept="image/*;capture=camera" />
+                            </div>
+                            <div class="file-path-wrapper">
+                                <!--<input class="file-path validate" type="text">-->
+                            </div>
+
+
+
+
+
+
+                            <div class="row center">
+
+                                <div class="col s12">
+
+
+                                    <p class="center">
+                                        Selfie Preview Area
+                                    </p>
+                                    <canvas id="PhotoEdit">
+
+                                    </canvas>
+
+
+                                    <button class="btn-large waves-effect waves-blue z-depth-3 waves-effect teal text-lighten-1 white-text btn-flat createRecipe " type="submit">Submit Selfie
+<i class="mdi-content-send right"></i>
+</button>
+
+
+                                    <!--<img height="500" width="500" src="" class="img" />-->
+                                </div>
+                            </div>
+
+
+
+
+                    </form>
+
+                </section>
+
+                </div>
+
+
+
+    </section>
+
+<!--end screen-->
