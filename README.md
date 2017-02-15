@@ -1,2 +1,2 @@
 # 3.mySelfieSecondPage
-Paste HTML underneath first page
+Paste HTML underneath first page.
